@@ -1,0 +1,119 @@
+#sidebox {
+    position: relative;
+    border:2px solid green;
+    height: 300px;
+} 
+
+#qita {
+	border:2px solid green;
+    height: 300px;
+}
+
+#tar_bar {
+    position: absolute;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#tar_bar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    vertical-align: center;
+}
+
+#tabs li {
+    width: 132px;
+    height: 30px;
+    float: left;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.tabcss {
+    position: absolute;
+    top: 20px;
+    width: 370px;
+    height: 170px;
+    float: left;
+    display: none;
+}
+
+.tabons {
+    background-color: #fbad18;
+}
+
+.pages li {
+    /* list-style-type: none;
+   margin: 10px 0px 10px -34px;
+   padding: 2px 3px;
+   display: block;
+   border-radius: 5px/5px;
+   font-size: 10px;
+   color: white;
+   width: 15px;
+   text-align: center;
+   float: left; */
+    
+    margin:15px 0px 0px 0px;
+    list-style-type:none;
+    width:30px;
+}
+
+.pages a {
+    /* position: relative;
+   top: 7px;
+   text-decoration: none;
+   display: block;
+   margin: 5px 0px 5px 0px;
+   padding: 2px 3px;
+   font-size: 14px; */
+    text-decoration: none;
+    color:black;
+}
+
+#reTop {
+    width: 20px;
+    height: 78px;
+    background-color: #fab529;
+    position: fixed;
+    top: 500px;
+    right: 0;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.reTop {
+    display: none;
+}
+
+#footer {
+    background: black;
+    color: white;
+    height: 20px;
+    /* width: 1000px; */
+    position: relative;
+    top: 0px;
+}
+
+.biaoge{
+	text-align: center;
+	width:123px;
+	float:left;
+}
+
+.biaoge td{
+	font-family:楷体;
+	font-weight:bold;
+	margin:14px 0px 0px 0px;
+	width:123px;
+	display:block;
+}
+
+.biaoge td a:hover{
+	
+	color:red;
+}

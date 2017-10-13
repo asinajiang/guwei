@@ -16,106 +16,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
 	<style type="text/css">
-         #sidebox {
-            position: relative;
-            border:2px solid green;
-            height: 300px;
-            
-            
-        } 
-        
-        #qita {
-        	border:2px solid green;
-            height: 300px;
-        }
-        
-        #tar_bar {
-            position: absolute;
-            /* width: 1300px; */
-            /* width:100%; */
-            height: 20px;
-            padding: 0;
-            margin: 0;
-        }
-        
-        #tar_bar ul {
-            list-style-type: none;
-            text-align: center;
-            padding: 0;
-            margin: 0;
-            vertical-align: center;
-        }
-        
-        #tabs li {
-            width: 132px;
-            height: 30px;
-            float: left;
-            cursor: pointer;
-            line-height: 30px;
-        }
-        
-        .tabcss {
-            position: absolute;
-            top: 20px;
-            width: 370px;
-            height: 170px;
-            float: left;
-            /*z-index: 900;*/
-            display: none;
-        }
-        
-        .tabons {
-            background-color: #fbad18;
-        }
-        
-        .pages li {
-            list-style-type: none;
-            margin: 10px 0px 10px -34px;
-            padding: 2px 3px;
-            display: block;
-            border-radius: 5px/5px;
-            font-size: 10px;
-            color: white;
-            width: 15px;
-            text-align: center;
-            float: left;
-        }
-        
-        .pages a {
-            position: relative;
-            top: 7px;
-            text-decoration: none;
-            display: block;
-            margin: 5px 0px 5px 0px;
-            padding: 2px 3px;
-            font-size: 14px;
-        }
-
-        #reTop {
-            width: 20px;
-            height: 78px;
-            background-color: #fab529;
-            position: fixed;
-            top: 500px;
-            right: 0;
-            text-align: center;
-            line-height: 26px;
-            cursor: pointer;
-        }
-        
-        .reTop {
-            display: none;
-        }
-        
-        #footer {
-            background: black;
-            color: white;
-            height: 20px;
-            /* width: 1000px; */
-            position: relative;
-            top: 0px;
-        }
+         
     </style>
+    <link rel="stylesheet" type="text/css" href="<%=path%>/css/index.css">
     <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
     <script type="text/javascript" src="js/jquery.color.js"></script>
     <script type="text/javascript">
@@ -195,118 +98,259 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div id="tabcontent">
             <div id="tar_bar">
                 <ul id="tabs">
-                    <li id="tab1" onclick="ownclick(0)" class="tabons">点击排行</li>
-                    <li id="tab2" onclick="ownclick(1)">最新文章</li>
-                    <li id="tab3" onclick="ownclick(2)">站长推荐</li>
-                    <li id="tab3" onclick="ownclick(3)">国际大事</li>
-                    <li id="tab3" onclick="ownclick(4)">国际大事</li>
-                    <li id="tab3" onclick="ownclick(5)">国际大事</li>
-                    <li id="tab3" onclick="ownclick(6)">国际大事</li>
-                    <li id="tab3" onclick="ownclick(7)">国际大事</li>
-                    <li id="tab3" onclick="ownclick(8)">国际大事</li>
-                    <li id="tab3" onclick="ownclick(9)">国际大事</li>
+                    <li id="tab1" onclick="ownclick(0)" class="tabons">最大点击</li>
+                    <li id="tab2" onclick="ownclick(1)">JAVA</li>
+                    <li id="tab3" onclick="ownclick(2)">资源汇总</li>
+                    <li id="tab3" onclick="ownclick(3)">华科系列</li>
+                    <li id="tab3" onclick="ownclick(4)">生活相关</li>
+                    <li id="tab3" onclick="ownclick(5)">娱乐系列</li>
+                    <li id="tab3" onclick="ownclick(6)">日常关注</li>
+                    <li id="tab3" onclick="ownclick(7)">其他</li>
+                    <li id="tab3" onclick="ownclick(8)">休闲论坛</li>
+                    <li id="tab3" onclick="ownclick(9)">空</li>
                     
                 </ul>
             </div>
             <div>
                 <ul id="tabpage" style="margin: 0; padding: 0;">
-                    <div class="tabcss" id="page1" style="display: inline-block;">
+                    <div class="tabcss" id="page1" style="display: inline-block;" value="最大点击">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">美联社称希拉里赢得民主党提名 但桑德斯否认</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">欧盟阻止德意志交易所收购伦敦证券交易所的交易</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">苹果拟投十亿美元在美国设立更多制造业岗位</a>
-                            <li style="background-color: gray">4</li><a href="#">尼康诉阿斯麦、蔡司侵权 称“别无选择”</a>
-                            <li style="background-color: gray">5</li><a href="#">美军向叙利亚机场发射导弹 黄金原油直线拉升</a>
-                            <li style="background-color: gray">6</li><a href="#">美联储：美经济放缓或为暂时现象</a>
+                        	<table>
+								<tr class="biaoge">
+									<td><a href="#">test1</a></td>
+									<td><a href="#">test2</a></td>
+									<td><a href="#">test3</a></td>
+									<td><a href="#">test4</a></td>
+									<td><a href="#">test5</a></td>
+									<td><a href="#">test6</a></td>
+									<td><a href="#">test7</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#">test1</a></td>
+									<td><a href="#">test1</a></td>
+									<td><a href="#">test1</a></td>
+									<td><a href="#">test1</a></td>
+									<td><a href="#">test1</a></td>
+									<td><a href="#">test1</a></td>
+									<td><a href="#">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page2">
+                    <div class="tabcss" id="page2"  value="JAVA">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">舞动的白色精灵</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">荆棘中绽放的花朵</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">沼泽中沉睡的女神</a>
-                            <li style="background-color: gray">4</li><a href="#">翩翩的金丝蝴蝶</a>
-                            <li style="background-color: gray">5</li><a href="#">花中君子</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page3">
+                    <div class="tabcss" id="page3"  value="资源汇总">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">法国新任总统马克龙正式入主爱丽舍宫</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">韩国新总统将派前总理访华 与中方谈解决</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">京都旅行攻略 京都旅行攻略沙发客</a>
-                            <li style="background-color: gray">4</li><a href="#">解密中东战事乱局</a>
-                            <li style="background-color: gray">5</li><a href="#">英国大选陷入胶着，结果或将反转</a>
-                            <li style="background-color: gray">6</li><a href="#">法国新任总统今日发表就职演说</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="http://muchong.com/bbs/index.php"  target="_blank">小木虫</a></td>
+									<td><a href="http://www.pansou.com/"  target="_blank">网盘搜索</a></td>
+									<td><a href="http://www.panbaidu.net/"  target="_blank">百度网盘论坛</a></td>
+									<td><a href="http://book.mihua.net/"  target="_blank">米花图书下载</a></td>
+									<td><a href="http://www.51pptmoban.com/"  target="_blank">51ppt模板</a></td>
+									<td><a href="http://cn.linux.vbird.org/"  target="_blank">鸟哥的私房菜</a></td>
+									<td><a href="http://www.nruan.com/"  target="_blank">N软网</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="http://gqzzw.com/"  target="_blank">高清杂志网</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page4">
+                    <div class="tabcss" id="page4"  value="华科系列">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">法国新任总统马克龙正式入主爱丽舍宫</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">韩国新总统将派前总理访华 与中方谈解决</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">京都旅行攻略 京都旅行攻略沙发客</a>
-                            <li style="background-color: gray">4</li><a href="#">解密中东战事乱局</a>
-                            <li style="background-color: gray">5</li><a href="#">英国大选陷入胶着，结果或将反转</a>
-                            <li style="background-color: gray">6</li><a href="#">法国新任总统今日发表就职演说</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="http://www.hust.edu.cn/"  target="_blank">华科官网</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page5">
+                    <div class="tabcss" id="page5"  value="生活相关">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">法国新任总统马克龙正式入主爱丽舍宫</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">韩国新总统将派前总理访华 与中方谈解决</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">京都旅行攻略 京都旅行攻略沙发客</a>
-                            <li style="background-color: gray">4</li><a href="#">解密中东战事乱局</a>
-                            <li style="background-color: gray">5</li><a href="#">英国大选陷入胶着，结果或将反转</a>
-                            <li style="background-color: gray">6</li><a href="#">法国新任总统今日发表就职演说</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="http://weibo.com/u/2881400970/home?wvr=5" target="_blank">微博</a></td>
+									<td><a href="https://www.icloud.com/"  target="_blank">Apple iCloud</a></td>
+									<td><a href="http://wh.meituan.com/"  target="_blank">美团</a></td>
+									<td><a href="https://www.zhihu.com/"  target="_blank">知乎</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page6">
+                    <div class="tabcss" id="page6"  value="娱乐系列">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">法国新任总统马克龙正式入主爱丽舍宫</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">韩国新总统将派前总理访华 与中方谈解决</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">京都旅行攻略 京都旅行攻略沙发客</a>
-                            <li style="background-color: gray">4</li><a href="#">解密中东战事乱局</a>
-                            <li style="background-color: gray">5</li><a href="#">英国大选陷入胶着，结果或将反转</a>
-                            <li style="background-color: gray">6</li><a href="#">法国新任总统今日发表就职演说</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="http://www.hanju.cc/hanjuxiazai/"  target="_blank">韩剧网</a></td>
+									<td><a href="http://www.zimuzu.tv/"  target="_blank">YYeTs字幕组</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page7">
+                    <div class="tabcss" id="page7"  value="日常关注">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">法国新任总统马克龙正式入主爱丽舍宫</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">韩国新总统将派前总理访华 与中方谈解决</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">京都旅行攻略 京都旅行攻略沙发客</a>
-                            <li style="background-color: gray">4</li><a href="#">解密中东战事乱局</a>
-                            <li style="background-color: gray">5</li><a href="#">英国大选陷入胶着，结果或将反转</a>
-                            <li style="background-color: gray">6</li><a href="#">法国新任总统今日发表就职演说</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page8">
+                    <div class="tabcss" id="page8"  value="其他">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">法国新任总统马克龙正式入主爱丽舍宫</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">韩国新总统将派前总理访华 与中方谈解决</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">京都旅行攻略 京都旅行攻略沙发客</a>
-                            <li style="background-color: gray">4</li><a href="#">解密中东战事乱局</a>
-                            <li style="background-color: gray">5</li><a href="#">英国大选陷入胶着，结果或将反转</a>
-                            <li style="background-color: gray">6</li><a href="#">法国新任总统今日发表就职演说</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page9">
+                    <div class="tabcss" id="page9"  value="休闲论坛">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">法国新任总统马克龙正式入主爱丽舍宫</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">韩国新总统将派前总理访华 与中方谈解决</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">京都旅行攻略 京都旅行攻略沙发客</a>
-                            <li style="background-color: gray">4</li><a href="#">解密中东战事乱局</a>
-                            <li style="background-color: gray">5</li><a href="#">英国大选陷入胶着，结果或将反转</a>
-                            <li style="background-color: gray">6</li><a href="#">法国新任总统今日发表就职演说</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="http://bbs.whnet.edu.cn/main.html"  target="_blank">白云黄鹤</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page10">
+                    <div class="tabcss" id="page10"  value="空">
                         <ul class="pages">
-                            <li style="background-color: red; ">1</li><a href="#">法国新任总统马克龙正式入主爱丽舍宫</a>
-                            <li style="background-color: #fb7818">2</li><a href="#">韩国新总统将派前总理访华 与中方谈解决</a>
-                            <li style="background-color: #fbcf18">3</li><a href="#">京都旅行攻略 京都旅行攻略沙发客</a>
-                            <li style="background-color: gray">4</li><a href="#">解密中东战事乱局</a>
-                            <li style="background-color: gray">5</li><a href="#">英国大选陷入胶着，结果或将反转</a>
-                            <li style="background-color: gray">6</li><a href="#">法国新任总统今日发表就职演说</a>
+                            <table>
+								<tr class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="#"  target="_blank">test1</a></td>
+								</tr>
+							</table>
                         </ul>
                     </div>
                       
