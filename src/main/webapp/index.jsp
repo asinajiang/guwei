@@ -107,7 +107,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <li id="tab3" onclick="ownclick(6)">日常关注</li>
                     <li id="tab3" onclick="ownclick(7)">其他</li>
                     <li id="tab3" onclick="ownclick(8)">休闲论坛</li>
-                    <li id="tab3" onclick="ownclick(9)">空</li>
+                    <li id="tab3" onclick="ownclick(9)">ps等</li>
                     
                 </ul>
             </div>
@@ -141,22 +141,40 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         <ul class="pages">
                             <table>
 								<tr class="biaoge">
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="http://tool.lu/coderunner/"  target="_blank">在线编译运行网</a></td>
+									<td><a href="http://ifeve.com/"  target="_blank">并发编程网</a></td>
+									<td><a href="http://www.importnew.com/"  target="_blank">ImportNew</a></td>
+									<td><a href="http://www.infoq.com/cn/"  target="_blank">InfoQ</a></td>
+									<td><a href="http://www.oschina.net/"  target="_blank">开源中国</a></td>
+									<td><a href="https://www.ibm.com/developerworks/cn/"  target="_blank">IBM开发者</a></td>
+									<td><a href="https://segmentfault.com/"  target="_blank">SegmentFault</a></td>
 								</tr>
 								<tr  class="biaoge">
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="https://www.tuicool.com/"  target="_blank">JAVA 推酷</a></td>
+									<td><a href="http://www.csdn.net/"  target="_blank">CSDN</a></td>
+									<td><a href="https://www.cnblogs.com/"  target="_blank">博客园</a></td>
+									<td><a href="http://www.iteye.com/"  target="_blank">ITeye</a></td>
+									<td><a href="http://www.jdon.com/"  target="_blank">架构之道</a></td>
+									<td><a href="http://blog.jobbole.com/"  target="_blank">伯乐在线</a></td>
+									<td><a href="https://www.nowcoder.com/"  target="_blank">牛客网</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="https://leetcode.com/"  target="_blank">Leetcode</a></td>
+									<td><a href="https://www.topcoder.com/"  target="_blank">TopCoder</a></td>
+									<td><a href="http://en.jsrun.net/"  target="_blank">js在线分享及运行1</a></td>
+									<td><a href="http://runjs.cn/"  target="_blank">js在线分享及运行2</a></td>
+									<td><a href="http://tool.oschina.net/apidocs"  target="_blank">在线API文档</a></td>
+									<td><a href="http://tool.lu/"  target="_blank">CS在线工具</a></td>
+									<td><a href="http://canvas.qq.com/index" title="简化html5中画图的canvas使用的网站" target="_blank">canvas</a></td>
+								</tr>
+								<tr  class="biaoge">
+								    <td><a href="#"  target="_blank">test1</a></td>
+								    <td><a href="#"  target="_blank">test1</a></td>
+								    <td><a href="#"  target="_blank">test1</a></td>
+								    <td><a href="#"  target="_blank">test1</a></td>
+								    <td><a href="#"  target="_blank">test1</a></td>
+								    <td><a href="#"  target="_blank">test1</a></td>
+								    <td><a href="#"  target="_blank">test1</a></td>
 								</tr>
 							</table>
                         </ul>
@@ -175,8 +193,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								</tr>
 								<tr  class="biaoge">
 									<td><a href="http://gqzzw.com/"  target="_blank">高清杂志网</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="http://www.verycd.com/"  target="_blank">电驴大全</a></td>
+									<td><a href="http://www.iplaysoft.com/"  target="_blank">异次元软件世界</a></td>
+									<td><a href="http://bbs.kafan.cn/"  target="_blank">卡饭论坛-软件</a></td>
+									<td><a href="http://www.gpbeta.com/post/develop/sao-utils/"  target="_blank">sao风格启动</a></td>
+									<td><a href="http://www.popzitizh.com/"  target="_blank">艺术字在线</a></td>
+									<td><a href="https://smallpdf.com/cn"  target="_blank">pdf-X互转</a></td>
+								</tr>
+								<tr  class="biaoge">
+									<td><a href="http://btkitty.pet/"  target="_blank">BT Kitty</a></td>
+									<td><a href="https://freessr.win/"  target="_blank">免费shadowsocks账号</a></td>
+									<td><a href="https://uzer.me/z/apps" title="针对一些类似visio这样不常用的应用" target="_blank">云端应用-visio等</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
@@ -190,17 +217,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                             <table>
 								<tr class="biaoge">
 									<td><a href="http://www.hust.edu.cn/"  target="_blank">华科官网</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="http://myself.hust.edu.cn:8080/selfservice/"  target="_blank">校园网充值</a></td>
+									<td><a href="http://202.114.18.218/Main.aspx"  target="_blank">宿舍电量查询</a></td>
+									<td><a href="http://122.205.9.85/xg/"  target="_blank">华科学生综合服务</a></td>
+									<td><a href="http://hub.hust.edu.cn/index.jsp"  target="_blank">华科hub系统</a></td>
+									<td><a href="http://fiscal.hust.edu.cn/portal/login.aspx"  target="_blank">华科网上财务平台</a></td>
+									<td><a href="http://115.156.150.131/admin/"  target="_blank">光电实验室预约</a></td>
 								</tr>
 								<tr  class="biaoge">
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="https://hudbt.hust.edu.cn/torrents.php"  target="_blank">华科蝴蝶</a></td>
+									<td><a href="https://cms.hust.edu.cn:9999/system/caslogin.jsp;jsessionid=EA60E1B468051291008D781375270A61"  target="_blank">华科网站群管理</a></td>
+									<td><a href="http://career.hust.edu.cn/default.html"  target="_blank">华科研究生就业信息网</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
@@ -217,9 +244,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<td><a href="https://www.icloud.com/"  target="_blank">Apple iCloud</a></td>
 									<td><a href="http://wh.meituan.com/"  target="_blank">美团</a></td>
 									<td><a href="https://www.zhihu.com/"  target="_blank">知乎</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="http://www.mtime.com/"  target="_blank">时光网</a></td>
+									<td><a href="http://wuhan.leying.com/home/index"  target="_blank">乐影网</a></td>
+									<td><a href="http://www.mafengwo.cn/"  target="_blank">马蜂窝-旅游</a></td>
 								</tr>
 								<tr  class="biaoge">
 									<td><a href="#"  target="_blank">test1</a></td>
@@ -239,10 +266,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<tr class="biaoge">
 									<td><a href="http://www.hanju.cc/hanjuxiazai/"  target="_blank">韩剧网</a></td>
 									<td><a href="http://www.zimuzu.tv/"  target="_blank">YYeTs字幕组</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
-									<td><a href="#"  target="_blank">test1</a></td>
+									<td><a href="http://www.imdb.cn/IMDB250/"  target="_blank">IMDB电影排名</a></td>
+									<td><a href="http://www.dytt8.net/?qqdrsign=0203f"  target="_blank">电影天堂</a></td>
+									<td><a href="https://www.zhibo8.cc/zuqiu/luxiang.htm"  target="_blank">足球赛录播</a></td>
+									<td><a href="http://manhua.fzdm.com/058/171/"  target="_blank">食戟之灵漫画续</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
 								</tr>
 								<tr  class="biaoge">
@@ -329,7 +356,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							</table>
                         </ul>
                     </div>
-                    <div class="tabcss" id="page10"  value="空">
+                    <div class="tabcss" id="page10"  value="ps等">
                         <ul class="pages">
                             <table>
 								<tr class="biaoge">
