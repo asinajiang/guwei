@@ -202,7 +202,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								</tr>
 								<tr  class="biaoge">
 									<td><a href="http://btkitty.pet/"  target="_blank">BT Kitty</a></td>
-									<td><a href="https://freessr.win/"  target="_blank">免费shadowsocks账号</a></td>
+									<td><a href="https://freessr.win/"  target="_blank">免费影梭ss账号</a></td>
 									<td><a href="https://uzer.me/z/apps" title="针对一些类似visio这样不常用的应用" target="_blank">云端应用-visio等</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
@@ -227,7 +227,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<tr  class="biaoge">
 									<td><a href="https://hudbt.hust.edu.cn/torrents.php"  target="_blank">华科蝴蝶</a></td>
 									<td><a href="https://cms.hust.edu.cn:9999/system/caslogin.jsp;jsessionid=EA60E1B468051291008D781375270A61"  target="_blank">华科网站群管理</a></td>
-									<td><a href="http://career.hust.edu.cn/default.html"  target="_blank">华科研究生就业信息网</a></td>
+									<td><a href="http://career.hust.edu.cn/default.html" title="华科研究生就业信息网" target="_blank">华科研究生就业网</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
 									<td><a href="#"  target="_blank">test1</a></td>
