@@ -1,3 +1,23 @@
+#cornerBtn{
+	height:15px;
+	width:10px;
+	opacity:0.0;
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+
+#topbox{
+	height:175px;
+}
+
+.topboxpic{
+	height:160px;
+	width:100%;
+}
+
 #sidebox {
     position: relative;
     border:2px solid green;
@@ -120,3 +140,85 @@
 	
 	color:red;
 }
+
+
+
+
+
+
+
+#sideboxyincang{
+    position: relative;
+    border:2px solid green;
+    height: 300px;
+} 
+
+#tar_baryincang{
+    position: absolute;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#tar_baryincang ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    vertical-align: center;
+}
+
+#tabsyincang li{
+    width: 132px;
+    height: 30px;
+    float: left;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.tabcssyincang{
+    position: absolute;
+    top: 20px;
+    height: 170px;
+    float: left;
+    display: none;
+}
+
+.tabonsyincang{
+    background-color: #fbad18;
+}
+
+.pagesyincang li{
+    
+    margin:15px 0px 0px 0px;
+    list-style-type:none;
+    width:30px;
+}
+
+.pagesyincang a{
+    text-decoration: none;
+    color:black;
+}
+
+.biaogeyincang{
+	text-align: center;
+	width:155px;
+	float:left;
+}
+
+.biaogeyincang td{
+	font-family:楷体;
+	font-weight:bold;
+	margin:12px 0px 0px 0px;
+	width:155px;
+	display:block;
+	border:3px orange double;
+	border-left-width:6px;
+	border-right-width:6px;
+	background-color:pink;
+}
+
+.biaogeyincang td a:hover{
+	color:red;
+}
+
